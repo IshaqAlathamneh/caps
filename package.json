@@ -1,0 +1,30 @@
+{
+  "name": "caps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "caps.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "start": "node caps.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IshaqAlathamneh/caps.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IshaqAlathamneh/caps/issues"
+  },
+  "homepage": "https://github.com/IshaqAlathamneh/caps#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "faker": "^5.5.3",
+    "jest": "^26.6.3"
+  }
+}
